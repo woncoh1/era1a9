@@ -143,7 +143,7 @@ def plot_learning_curves(
     axs[1].set_ylabel("Accuracy (%)")
     axs[1].set_ylim(bottom=None, top=100)
     axs[1].grid()
-    plt.setp(axs, xticks=epochs)
+    plt.setp(axs, xticks=range(1, epoch+1, 5))
     plt.legend(loc="center left", bbox_to_anchor=(1, 0.5))
     plt.show()
 
