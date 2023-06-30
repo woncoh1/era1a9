@@ -1,5 +1,8 @@
 import torch
 import torchvision
+import numpy as np
+import albumentations as A
+from albumentations.pytorch import ToTensorV2
 
 
 # Pixel statistics of all (train + test) CIFAR-10 images
@@ -21,7 +24,7 @@ CLASSES = [
 ]
 
 
-class TransformedDataset(Dataset):
+class TransformedDataset(torch.utils.data.Dataset):
     def __init__(self,
         dataset:torchvision.datasets,
         transform:torchvision.transforms.Compose|A.Compose|None=None,
