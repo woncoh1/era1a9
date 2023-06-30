@@ -6,5 +6,5 @@
   - Horizontal flip
   - Affine transformations: translation, rotation, scaling, shear
 - Model: fully [convolutional neural network](https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-convolutional-neural-networks)
-  - [Dilated convolution](https://github.com/vdumoulin/conv_arithmetic#dilated-convolution-animations)
+  - [Dilated convolution]([https://github.com/vdumoulin/conv_arithmetic#dilated-convolution-animations](https://github.com/vdumoulin/conv_arithmetic/raw/master/gif/dilation.gif))
   - [Depthwise separable convolution](https://animatedai.github.io/media/depthwise-separable-convolution-animation-3x3-kernel.gif)
