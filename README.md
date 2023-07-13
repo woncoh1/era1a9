@@ -25,16 +25,17 @@ Acheive all of the followings using modular code organization:
 - Number of parameters < 200,000
 - Number of epochs: unlimited
 
-## Results summary
+## Results
 - Best train accuracy = 81.40 %
 - Best test accuracy = 87.04 %
 - Number of parameters = 163,744
 - Number of epochs = 30
 
-## Results
-<details>
-<summary>Model summary</summary>
-<pre>
+## Sample images
+![si](https://github.com/woncoh1/era1a9/assets/12987758/05063be9-9214-4c69-bc22-2b330e5cf905)
+
+## Model summary
+```
 ==========================================================================================
 Layer (type (var_name))                  Output Shape              Param #
 ==========================================================================================
@@ -134,12 +135,10 @@ Forward/backward pass size (MB): 1543.51
 Params size (MB): 0.65
 Estimated Total Size (MB): 1545.74
 ==========================================================================================
-</pre>
-</details>
+```
 
-<details>
-<summary>Training log</summary>
-<pre>
+## Training log
+```
   0%|          | 0/391 [00:00<?, ?it/s]
 Train: Loss = 0.01350, Accuracy = 35.72%, Epoch = 1
 Test : Loss = 0.01174, Accuracy = 45.37%
@@ -259,5 +258,10 @@ Test : Loss = 0.00314, Accuracy = 86.83%
   0%|          | 0/391 [00:00<?, ?it/s]
 Train: Loss = 0.00418, Accuracy = 81.40%, Epoch = 30
 Test : Loss = 0.00309, Accuracy = 87.04%
-</pre>
-</details>
+```
+
+## Learning curves
+![lc](https://github.com/woncoh1/era1a9/assets/12987758/525f7a63-70ef-43e7-a189-65b2b338b97c)
+
+## Incorrect predictions
+![ip](https://github.com/woncoh1/era1a9/assets/12987758/0d947f3f-4dfb-4d46-853a-63ea9e11668f)
