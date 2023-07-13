@@ -265,3 +265,8 @@ Test : Loss = 0.00309, Accuracy = 87.04%
 
 ## Incorrect predictions
 ![ip](https://github.com/woncoh1/era1a9/assets/12987758/0d947f3f-4dfb-4d46-853a-63ea9e11668f)
+
+## TODO
+- [ ] Sample raw images
+- [ ] Receptive field calculations
+- [ ] Demo live predictions
